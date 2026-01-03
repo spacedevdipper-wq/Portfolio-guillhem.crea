@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# CMS
+cms/.env
+cms/database/
+cms/uploads/
+
+# Backup files
+*.backup
+backup/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
