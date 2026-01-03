@@ -23,19 +23,19 @@ document.addEventListener('DOMContentLoaded', async function() {
         filtered.forEach(artwork => {
             const card = document.createElement('div');
             card.className = 'artwork-card';
-            card.innerHTML = \`
-                <img src="assets/images/oeuvres/\${artwork.image}" 
-                     alt="\${artwork.title}" 
+            card.innerHTML = `
+                <img src="assets/images/oeuvres/${artwork.image}" 
+                     alt="${artwork.title}" 
                      class="artwork-image">
                 <div class="artwork-info">
-                    <h3 class="artwork-title">\${artwork.title}</h3>
+                    <h3 class="artwork-title">${artwork.title}</h3>
                     <p class="artwork-details">
-                        \${formatDimensions(artwork.dimensions)} • 
-                        \${artwork.year} • 
-                        \${formatTechnique(artwork.technique)}
+                        ${formatDimensions(artwork.dimensions)} • 
+                        ${artwork.year} • 
+                        ${formatTechnique(artwork.technique)}
                     </p>
                 </div>
-            \`;
+            `;
             card.addEventListener('click', () => openLightbox(artwork));
             grid.appendChild(card);
         });
@@ -52,10 +52,10 @@ document.addEventListener('DOMContentLoaded', async function() {
     
     // Lightbox
     function openLightbox(artwork) {
-        document.getElementById('lightboxImage').src = \`assets/images/oeuvres/\${artwork.image}\`;
+        document.getElementById('lightboxImage').src = `assets/images/oeuvres/${artwork.image}`;
         document.getElementById('lightboxTitle').textContent = artwork.title;
         document.getElementById('lightboxDetails').textContent = 
-            \`\${formatDimensions(artwork.dimensions)} • \${artwork.year} • \${formatTechnique(artwork.technique)}\`;
+            `${formatDimensions(artwork.dimensions)} • ${artwork.year} • ${formatTechnique(artwork.technique)}`;
         document.getElementById('lightboxDescription').textContent = artwork.description;
         lightbox.classList.add('active');
         document.body.style.overflow = 'hidden';
