@@ -1,0 +1,19 @@
+/* Variables CSS selon le plan */
+:root {
+    /* Couleurs */
+    --color-black: #121212;
+    --color-cream: #F5F5DC;
+    --color-white: #FFFFFF;
+    --color-gray: #333333;
+    --color-light-gray: #888888;
+    
+    /* Typographie */
+    --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    /* Espacements */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 4rem;
+    --space-xl: 8rem;
+}

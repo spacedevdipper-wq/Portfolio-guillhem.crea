@@ -1,0 +1,15 @@
+/* Styles de mise en page */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+}
+
+.section { padding: var(--space-lg) 0; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container { padding: 0 var(--space-sm); }
+    .section { padding: var(--space-md) 0; }
+}

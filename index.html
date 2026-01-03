@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillhem R.F - Portfolio Artistique</title>
+    <meta name="description" content="Portfolio professionnel de l'artiste Guillhem R.F - Brou de noix, fusain, pastel à l'huile">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <a href="/" class="logo">Guillhem R.F</a>
+            <ul class="nav-links">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="biography.html">Biographie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Portfolio Artistique</h1>
+            <p class="hero-subtitle">Brou de noix • Fusain • Pastel à l'huile</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <main class="main-content">
+        <div class="container">
+            <h2 class="section-title">Galerie des Œuvres</h2>
+            
+            <!-- Filter Bar -->
+            <div class="filter-bar" id="filterBar">
+                <button class="filter-btn active" data-filter="all">Toutes les œuvres</button>
+                <button class="filter-btn" data-filter="brou_de_noix">Brou de noix</button>
+                <button class="filter-btn" data-filter="fusain">Fusain</button>
+                <button class="filter-btn" data-filter="pastel_a_huile">Pastel à l'huile</button>
+            </div>
+            
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Les œuvres seront chargées ici par JavaScript -->
+                <p class="loading-text">Chargement des œuvres...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <img class="lightbox-image" id="lightboxImage" src="" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDetails"></p>
+                <p id="lightboxDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Guillhem R.F - Tous droits réservés</p>
+            <p>Contact: <a href="mailto:guillhem.crea@gmail.com">guillhem.crea@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/utils.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

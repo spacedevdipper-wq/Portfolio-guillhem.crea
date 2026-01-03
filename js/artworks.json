@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "id": "bn-001",
+    "title": "Le Sage",
+    "technique": "brou_de_noix",
+    "year": 2024,
+    "dimensions": "82 x 62 cm",
+    "description": "Portrait au brou de noix",
+    "image": "brou_de_noix/4-Le Sage, brou de noix, 82x62.jpg",
+    "thumbnail": "brou_de_noix/4-Le Sage, brou de noix, 82x62.jpg"
+  },
+  {
+    "id": "bn-002",
+    "title": "Granny",
+    "technique": "brou_de_noix",
+    "year": 2024,
+    "dimensions": "65 x 46 cm",
+    "description": "Portrait d'une grand-mère au brou de noix",
+    "image": "brou_de_noix/5-Granny, brou de noix, 65x46.jpg",
+    "thumbnail": "brou_de_noix/5-Granny, brou de noix, 65x46.jpg"
+  },
+  {
+    "id": "fus-001",
+    "title": "Iris",
+    "technique": "fusain",
+    "year": 2024,
+    "dimensions": "40 x 30 cm",
+    "description": "Fleur d'iris au fusain et pastel noir",
+    "image": "fusain/1-Iris, fusain et pastel noir, 40x30.jpg",
+    "thumbnail": "fusain/1-Iris, fusain et pastel noir, 40x30.jpg"
+  },
+  {
+    "id": "fus-002",
+    "title": "Horse",
+    "technique": "fusain",
+    "year": 2024,
+    "dimensions": "70 x 50 cm",
+    "description": "Cheval au fusain et pastel noir",
+    "image": "fusain/2-Horse, fusain et pastel noir, 70x50.jpg",
+    "thumbnail": "fusain/2-Horse, fusain et pastel noir, 70x50.jpg"
+  },
+  {
+    "id": "fus-003",
+    "title": "Le peintre",
+    "technique": "fusain",
+    "year": 2024,
+    "dimensions": "70 x 50 cm",
+    "description": "Portrait d'un peintre au fusain",
+    "image": "fusain/3-Le peintre, fusain et pastel noir, 70x50.jpg",
+    "thumbnail": "fusain/3-Le peintre, fusain et pastel noir, 70x50.jpg"
+  },
+  {
+    "id": "fus-004",
+    "title": "Elephant",
+    "technique": "fusain",
+    "year": 2024,
+    "dimensions": "Non spécifiée",
+    "description": "Éléphant au fusain",
+    "image": "fusain/Elephant.jpg",
+    "thumbnail": "fusain/Elephant.jpg"
+  },
+  {
+    "id": "fus-005",
+    "title": "La danseuse",
+    "technique": "fusain",
+    "year": 2024,
+    "dimensions": "Non spécifiée",
+    "description": "Danseuse au fusain",
+    "image": "fusain/La danseuse.jpg",
+    "thumbnail": "fusain/La danseuse.jpg"
+  },
+  {
+    "id": "fus-006",
+    "title": "Un Candela",
+    "technique": "fusain",
+    "year": 2024,
+    "dimensions": "Non spécifiée",
+    "description": "Portrait au fusain",
+    "image": "fusain/Un Candela.jpg",
+    "thumbnail": "fusain/Un Candela.jpg"
+  },
+  {
+    "id": "fus-007",
+    "title": "Vieil homme",
+    "technique": "fusain",
+    "year": 2024,
+    "dimensions": "Non spécifiée",
+    "description": "Portrait d'un vieil homme au fusain",
+    "image": "fusain/Vielle homme.jpg",
+    "thumbnail": "fusain/Vielle homme.jpg"
+  },
+  {
+    "id": "ph-001",
+    "title": "Composition pastel",
+    "technique": "pastel_a_huile",
+    "year": 2024,
+    "dimensions": "Non spécifiée",
+    "description": "Composition au pastel à l'huile",
+    "image": "pastel_a_huile/pastel_a_huile_15.png",
+    "thumbnail": "pastel_a_huile/pastel_a_huile_15.png"
+  }
+]
